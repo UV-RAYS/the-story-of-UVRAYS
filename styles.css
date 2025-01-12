@@ -1,0 +1,78 @@
+body {
+    background-color: blueviolet;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+p {
+    margin: 10px 0;
+}
+
+#sentence-1,
+#sentence-2,
+#sentence-3,
+#sentence-4,
+#sentence-5,
+#sentence-6 {
+    display: none;
+}
+
+#sentence-1 {
+    display: block;
+    color: orange;
+}
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#nextphase {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    opacity: 0;
+    pointer-events: auto;
+    
+}
+#2st {
+    display: none;
+}
